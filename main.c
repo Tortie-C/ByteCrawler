@@ -50,11 +50,6 @@ int main(int argc, char* argv[]) {
         return createNewConsole(argv[0]);
     }
 
-    //printf("Enter a path to a file:\n");
-    //scanf("%s", path);
-
-    //path = "res/test.txt";
-
 
     // set up console to print escape sequences and receive input
 
@@ -140,7 +135,7 @@ int main(int argc, char* argv[]) {
             return 1;
         }
 
-        // for ever input read from the input buffer
+        // for every input read from the input buffer
         for(int i = 0; i < inputCount; i++) {
 
             switch(inputRecordBuffer[i].EventType) {
